@@ -1,8 +1,8 @@
 # Premier Client
 
-Static bilingual (French / English) affiliate site served at https://www.premierclient.ca by Cloudflare Pages.
+Static bilingual (French / English) affiliate site served at https://www.premierclient.ca by Cloudflare Workers static assets.
 
-- `site/` is the published folder. Cloudflare Pages deploys it as-is on every push to `main` (no build command, output directory `site`).
+- `site/` is the published folder. Cloudflare deploys it as-is on every push to `main` (`npx wrangler deploy`, configured by `wrangler.jsonc`).
 - French pages live at the root (`site/<slug>/index.html`), English pages under `site/en/<slug>/index.html`.
 
 ## Adding an article
