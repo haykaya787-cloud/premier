@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | Premier Client</title>
+<meta name="description" content="Premier Client helps local freelancers and small businesses choose their first online tools, without jargon.">
+<link rel="canonical" href="https://www.premierclient.ca/en/about/">
+<link rel="alternate" hreflang="fr-CA" href="https://www.premierclient.ca/a-propos/">
+<link rel="alternate" hreflang="en-CA" href="https://www.premierclient.ca/en/about/">
+<link rel="alternate" hreflang="x-default" href="https://www.premierclient.ca/a-propos/">
+<meta name="impact-site-verification" value="fa80025d-9a69-4270-9239-7dcd54d74bed">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* Layout idea: a narrow reading column with a ruled masthead; guides listed as a numbered index, not cards. */
+:root{
+  --bg:#f3f6f2; --surface:#ffffff; --ink:#14231f; --muted:#586761; --line:#d6ddd7;
+  --accent:#0b6e4f; --accent-ink:#ffffff; --mark:#f2b632;
+  --display:"Bricolage Grotesque","Trebuchet MS",sans-serif;
+  --body:"Public Sans","Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1614; --surface:#17201d; --ink:#e8eeea; --muted:#9babA5; --line:#2a3632;
+    --accent:#4cc79a; --accent-ink:#0f1614; --mark:#f2b632; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1614; --surface:#17201d; --ink:#e8eeea; --muted:#9baba5; --line:#2a3632;
+  --accent:#4cc79a; --accent-ink:#0f1614; --mark:#f2b632; color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header.mast{border-bottom:2px solid var(--ink)}
+.mast .wrap{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:14px}
+.brand{font-family:var(--display);font-weight:700;font-size:1.5rem;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.brand span{background:var(--mark);color:#14231f;padding:0 .3em;border-radius:3px}
+nav{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;font-size:.95rem}
+nav a{color:var(--ink);text-decoration:none;border-bottom:2px solid transparent;padding:2px 0}
+nav a:hover,nav a[aria-current="page"]{border-color:var(--accent)}
+.lang{font:inherit;font-size:.85rem;font-weight:600;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:4px 12px;cursor:pointer}
+a:focus-visible,button:focus-visible{outline:3px solid var(--mark);outline-offset:2px}
+.disclose{font-size:.85rem;color:var(--muted);border-bottom:1px solid var(--line)}
+.disclose .wrap{padding-top:8px;padding-bottom:8px}
+main{padding:36px 0 56px}
+section.view{display:none}
+section.view.on{display:block}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;letter-spacing:-.01em}
+h1{font-size:clamp(1.9rem,5vw,2.7rem);margin:0 0 14px}
+h2{font-size:1.4rem;margin:36px 0 10px}
+h3{font-size:1.1rem;margin:22px 0 6px}
+p{margin:0 0 14px;max-width:65ch}
+.lede{font-size:1.15rem;color:var(--muted)}
+ul,ol{padding-left:1.2em;max-width:65ch}
+li{margin-bottom:6px}
+a{color:var(--accent)}
+.index{list-style:none;padding:0;margin:26px 0 0;border-top:1px solid var(--line);max-width:none}
+.index li{margin:0;border-bottom:1px solid var(--line)}
+.index a{display:grid;grid-template-columns:2.4em 1fr;gap:4px 10px;padding:16px 0;text-decoration:none;color:var(--ink)}
+.index .n{font-family:var(--display);font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+.index strong{font-family:var(--display);font-size:1.15rem;font-weight:700}
+.index small{grid-column:2;color:var(--muted);font-size:.95rem}
+.index a:hover strong{text-decoration:underline;text-decoration-color:var(--accent)}
+.tablebox{overflow-x:auto;margin:14px 0 18px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:.95rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--display);font-weight:700}
+tr:last-child td{border-bottom:0}
+.cta{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:600;text-decoration:none;padding:10px 18px;border-radius:6px;margin:6px 0 4px}
+.cta:hover{filter:brightness(1.08)}
+.note{border-left:4px solid var(--mark);background:var(--surface);padding:12px 16px;margin:18px 0;font-size:.95rem;max-width:65ch}
+.back{font-size:.9rem;display:inline-block;margin-bottom:14px}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;padding:20px 0 40px}
+@media (prefers-reduced-motion: no-preference){.cta{transition:filter .15s}}
+section.view{display:block}a.lang{text-decoration:none}</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <a class="brand" href="/en/">Premier <span>Client</span></a>
+  <nav>
+    <a href="/en/">Guides</a>
+    <a href="/en/compare/">Compare</a>
+    <a href="/en/about/" aria-current="page">About</a>
+    <a class="lang" href="/a-propos/" hreflang="fr">Français</a>
+  </nav>
+</div></header>
+<div class="disclose"><div class="wrap">Disclosure: some links on this site are affiliate links. If you buy through one, we may earn a commission at no cost to you.</div></div>
+<main><div class="wrap">
+<section class="view">
+
+<h1>About</h1>
+<p>Premier Client helps local freelancers and small businesses choose their first online tools, without jargon.</p>
+<h2>How we assess tools</h2>
+<p>Our guides rely on the vendors' public documentation and official pricing pages. When a view rests on hands-on use, the article says so.</p>
+<h2>How the site is funded</h2>
+<p>Some links are affiliate links: if you buy through one, we may receive a commission at no cost to you. It changes neither the price you pay nor our recommendations.</p>
+
+</section>
+</div></main>
+<footer><div class="wrap">© 2026 Premier Client. General information only.</div></footer>
+</body>
+</html>
