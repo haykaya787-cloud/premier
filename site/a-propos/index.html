@@ -75,7 +75,14 @@ tr:last-child td{border-bottom:0}
 .back{font-size:.9rem;display:inline-block;margin-bottom:14px}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 @media (prefers-reduced-motion: no-preference){.cta{transition:filter .15s}}
-section.view{display:block}a.lang{text-decoration:none}</style>
+section.view{display:block}a.lang{text-decoration:none}
+.author{display:flex;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:18px 0 8px}
+.author img{width:84px;height:84px;border-radius:50%;flex:none}
+.author p{margin:0}
+.author strong{font-family:var(--display);font-size:1.15rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
+footer a{color:var(--muted)}
+</style>
 </head>
 <body>
 <header class="mast"><div class="wrap">
@@ -92,14 +99,17 @@ section.view{display:block}a.lang{text-decoration:none}</style>
 <section class="view">
 
 <h1>À propos</h1>
+<div class="author"><img src="/meissa-avatar.svg" alt="Avatar illustré de Meissa" width="84" height="84"><p><strong>Meissa</strong><br>J'écris les guides de Premier Client, en français et en anglais.</p></div>
 <p>Premier Client aide les travailleurs autonomes et les petites entreprises d'ici à choisir leurs premiers outils en ligne, sans jargon.</p>
-<h2>Comment nous évaluons les outils</h2>
-<p>Nos guides s'appuient sur la documentation publique des éditeurs et sur leurs pages de tarifs officielles. Quand un avis repose sur un essai pratique, nous le précisons dans l'article.</p>
+<h2>Comment j'évalue les outils</h2>
+<p>Les guides s'appuient sur la documentation publique des éditeurs et sur leurs pages de tarifs officielles. Quand un avis repose sur un essai pratique, l'article le précise.</p>
 <h2>Comment le site est financé</h2>
-<p>Certains liens sont des liens d'affiliation : si vous achetez par l'un d'eux, nous pouvons recevoir une commission, sans frais pour vous. Cela ne change ni le prix que vous payez ni nos recommandations.</p>
+<p>Certains liens sont des liens d'affiliation : si vous achetez par l'un d'eux, je peux recevoir une commission, sans frais pour vous. Cela ne change ni le prix que vous payez ni les recommandations.</p>
+<h2>Me joindre</h2>
+<p>Une question ou une erreur à signaler : <a href="mailto:bonjour@premierclient.ca">bonjour@premierclient.ca</a>. Voir aussi la <a href="/confidentialite/">politique de confidentialité</a>.</p>
 
 </section>
 </div></main>
-<footer><div class="wrap">© 2026 Premier Client. Information générale seulement.</div></footer>
+<footer><div class="wrap"><span>© 2026 Premier Client. Information générale seulement.</span><a class="foot-links" href="/confidentialite/">Confidentialité</a></div></footer>
 </body>
 </html>

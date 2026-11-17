@@ -75,7 +75,14 @@ tr:last-child td{border-bottom:0}
 .back{font-size:.9rem;display:inline-block;margin-bottom:14px}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 @media (prefers-reduced-motion: no-preference){.cta{transition:filter .15s}}
-section.view{display:block}a.lang{text-decoration:none}</style>
+section.view{display:block}a.lang{text-decoration:none}
+.author{display:flex;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin:18px 0 8px}
+.author img{width:84px;height:84px;border-radius:50%;flex:none}
+.author p{margin:0}
+.author strong{font-family:var(--display);font-size:1.15rem}
+footer .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
+footer a{color:var(--muted)}
+</style>
 </head>
 <body>
 <header class="mast"><div class="wrap">
@@ -92,14 +99,17 @@ section.view{display:block}a.lang{text-decoration:none}</style>
 <section class="view">
 
 <h1>About</h1>
+<div class="author"><img src="/meissa-avatar.svg" alt="Illustrated avatar of Meissa" width="84" height="84"><p><strong>Meissa</strong><br>I write the Premier Client guides, in French and English.</p></div>
 <p>Premier Client helps local freelancers and small businesses choose their first online tools, without jargon.</p>
-<h2>How we assess tools</h2>
-<p>Our guides rely on the vendors' public documentation and official pricing pages. When a view rests on hands-on use, the article says so.</p>
+<h2>How I assess tools</h2>
+<p>The guides rely on the vendors' public documentation and official pricing pages. When a view rests on hands-on use, the article says so.</p>
 <h2>How the site is funded</h2>
-<p>Some links are affiliate links: if you buy through one, we may receive a commission at no cost to you. It changes neither the price you pay nor our recommendations.</p>
+<p>Some links are affiliate links: if you buy through one, I may receive a commission at no cost to you. It changes neither the price you pay nor the recommendations.</p>
+<h2>Contact</h2>
+<p>A question or an error to report: <a href="mailto:bonjour@premierclient.ca">bonjour@premierclient.ca</a>. See also the <a href="/en/privacy/">privacy policy</a>.</p>
 
 </section>
 </div></main>
-<footer><div class="wrap">© 2026 Premier Client. General information only.</div></footer>
+<footer><div class="wrap"><span>© 2026 Premier Client. General information only.</span><a class="foot-links" href="/en/privacy/">Privacy</a></div></footer>
 </body>
 </html>

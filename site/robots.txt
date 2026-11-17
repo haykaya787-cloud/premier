@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /ressources/
+Disallow: /resources/
 
 Sitemap: https://www.premierclient.ca/sitemap.xml
