@@ -75,7 +75,24 @@ tr:last-child td{border-bottom:0}
 .back{font-size:.9rem;display:inline-block;margin-bottom:14px}
 footer{border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;padding:20px 0 40px}
 @media (prefers-reduced-motion: no-preference){.cta{transition:filter .15s}}
-section.view{display:block}a.lang{text-decoration:none}</style>
+section.view{display:block}a.lang{text-decoration:none}
+.cta.alt{background:transparent;color:var(--accent);border:2px solid var(--accent);padding:8px 16px}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;margin:14px 0 6px}
+.cta-note{font-size:.9rem;color:var(--muted)}
+.updated{font-size:.85rem;color:var(--muted);margin:-6px 0 14px}
+.chooser{margin:28px 0 8px}
+.chooser h2{margin:0 0 12px}
+.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.choice{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:18px 18px 14px;display:flex;flex-direction:column;gap:8px}
+.choice h3{margin:0;font-size:1.15rem}
+.choice p{margin:0;font-size:.97rem;flex:1}
+.choice .more{font-size:.9rem}
+.feature{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--mark);border-radius:8px;padding:20px;margin:26px 0 8px}
+.feature .tag{font-size:.8rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.feature h2{margin:6px 0 8px}
+.feature p{margin:0 0 4px}
+.index-title{margin:34px 0 0;font-size:1.2rem}
+</style>
 </head>
 <body>
 <header class="mast"><div class="wrap">
@@ -92,8 +109,22 @@ section.view{display:block}a.lang{text-decoration:none}</style>
 <section class="view">
 
 <h1>The right tools to land your first client online</h1>
-<p class="lede">Clear guides, in French and English, for freelancers and small businesses in Quebec and Canada getting started online.</p>
+<p class="lede">Clear guides, in French and English, for freelancers and small businesses in Quebec and Canada getting started online, including what changes in Quebec: GST/QST, French, payments.</p>
 
+<section class="chooser" aria-labelledby="choose-h">
+<h2 id="choose-h">What do you sell?</h2>
+<div class="choices">
+<div class="choice"><h3>Physical products</h3><p>Start with <strong>Shopify</strong>: store, inventory, shipping and taxes in one place. A free trial lets you build the store before you pay.</p><a class="cta" href="https://shopify.pxf.io/k4d03x?subId1=home-chooser&amp;subId2=en" rel="sponsored noopener">Try Shopify free</a><a class="more" href="/en/shopify/">Read the Shopify guide</a></div>
+<div class="choice"><h3>Services, coaching or courses</h3><p>Start with <strong>Systeme.io</strong>: sales page, email and checkout in one tool, with a free plan and no credit card required.</p><a class="cta" href="https://systeme.io/?sa=sa02865662993b51891b959daf857a33a6a54575a3" rel="sponsored noopener">Create a free Systeme.io account</a><a class="more" href="/en/systeme-io/">Read the Systeme.io guide</a></div>
+</div>
+</section>
+<section class="feature" aria-labelledby="feat-h">
+<span class="tag">The comparison</span>
+<h2 id="feat-h">Systeme.io or Shopify?</h2>
+<p>Verdict: if you sell your knowledge or services, pick Systeme.io. If you sell physical items, pick Shopify.</p>
+<div class="cta-row"><a class="cta" href="https://systeme.io/?sa=sa02865662993b51891b959daf857a33a6a54575a3" rel="sponsored noopener">See Systeme.io</a><a class="cta alt" href="https://shopify.pxf.io/k4d03x?subId1=home-featured&amp;subId2=en" rel="sponsored noopener">See Shopify</a><a href="/en/compare/">Read the full comparison</a></div>
+</section>
+<h2 class="index-title">All guides</h2>
 <ol class="index">
 <li><a href="/en/compare/"><span class="n">01</span><strong>Systeme.io or Shopify: which one should you start with?</strong><small>It depends on what you sell. Side-by-side table and verdict.</small></a></li>
 <li><a href="/en/systeme-io/"><span class="n">02</span><strong>Systeme.io: who it suits and what it does</strong><small>Sales funnels, email and courses in one tool.</small></a></li>

@@ -12,6 +12,19 @@ Static bilingual (French / English) affiliate site served at https://www.premier
 3. Add the article to the numbered list on both home pages (`site/index.html` and `site/en/index.html`).
 4. Add both new URLs to `site/sitemap.xml`.
 
+## Page pattern for guides
+
+- Right under the `<h1>`: `<p class="updated">Mis à jour le …</p>` (English: `Updated …`) with the date of the last real change.
+- Right under the lede: a `<div class="cta-row">` with the main affiliate button and a short `<span class="cta-note">` saying whether there is a free plan or a free trial (only if verified on the vendor's site).
+- At the end: the same button again. Comparison pages also get a button row as the last row of the table.
+- When it can be verified, add a short "Au Québec" / "In Quebec" section (taxes, French interface, Canadian payments). Skip it rather than guess.
+- Button classes: `cta` (main), `cta alt` (secondary, outlined). Styles are already in every page's `<style>` block; copy them if a new page lacks them.
+
+## Click tracking
+
+- Shopify links take placement tags: `https://shopify.pxf.io/k4d03x?subId1=<placement>&amp;subId2=<fr|en>`. Placements in use: `home-chooser`, `home-featured`, `compare-top`, `compare-table`, `compare-section`, `guide-top`, `guide-end`, `quebec-guide`. For a new article use `<slug>-top` and `<slug>-end`. These show up in Impact's reports by Sub ID.
+- Systeme.io links have no placement tags; use them as listed below.
+
 ## Rules for content
 
 - Every page keeps the affiliate disclosure line under the header.
