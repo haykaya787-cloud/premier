@@ -15,6 +15,6 @@ Static bilingual (French / English) affiliate site served at https://www.premier
 ## Rules for content
 
 - Every page keeps the affiliate disclosure line under the header.
-- Affiliate links use `rel="sponsored noopener"`. Current links: Systeme.io `https://systeme.io/?sa=sa02865662993b51891b959daf857a33a6a54575a3`, Shopify `https://shopify.pxf.io/k4d03x`.
+- Affiliate links use `rel="sponsored noopener"`. Current links: Systeme.io `https://systeme.io/fr?sa=sa02865662993b51891b959daf857a33a6a54575a3` on French pages and `https://systeme.io/?sa=sa02865662993b51891b959daf857a33a6a54575a3` on English pages, Shopify `https://shopify.pxf.io/k4d03x`.
 - Never claim hands-on testing, personal results, income figures, ratings or testimonials that cannot be sourced. Do not state specific prices; point readers to the official pricing page.
 - Keep the `impact-site-verification` meta tag in every page head.
