@@ -40,3 +40,8 @@ Static bilingual (French / English) affiliate site served at https://www.premier
 - Only claim hands-on experience for what we actually did (Systeme.io account, form, automation, domain). We do NOT run a Shopify store; Shopify pages say so.
 - New Shopify subId placements: taxes-top, taxes-end; YouTube descriptions use youtube-<slug>.
 - Builder used for the v2 pages: tools kept outside the repo; edit the HTML directly following the existing pages.
+
+## Starting-a-business series (Nov 2026)
+- Pages: /demarrer-entreprise-quebec/, /inscription-tps-tvq-quebec/ and EN twins, defined in tools/pro/pages_start.py.
+- Videos: IbpSrc9yuU4 (autonome ou société), Bcrxxq2Z2FY (ARC + TPS/TVQ). Pages take a `video=` dict; build_site.py embeds via youtube-nocookie and adds VideoObject.
+- Paid-registration affiliate (e.g. Ownr) pending the owner's approval: add the link to the "Ou payer un service" section and to both video descriptions.
