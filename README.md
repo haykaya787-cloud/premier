@@ -31,3 +31,12 @@ Static bilingual (French / English) affiliate site served at https://www.premier
 - Affiliate links use `rel="sponsored noopener"`. Current links: Systeme.io `https://systeme.io/fr?sa=sa02865662993b51891b959daf857a33a6a54575a3` on French pages and `https://systeme.io/?sa=sa02865662993b51891b959daf857a33a6a54575a3` on English pages, Shopify `https://shopify.pxf.io/k4d03x`.
 - Never claim hands-on testing, personal results, income figures, ratings or testimonials that cannot be sourced. Do not state specific prices; point readers to the official pricing page.
 - Keep the `impact-site-verification` meta tag in every page head.
+
+## Page format v2 (since 2026-11-20)
+- Guides are built as reviews: verdict box (`.verdict`), table of contents (`.toc`), facts table (`table.facts`), pros/limits (`.pc` with `.pro`/`.con`), a Quebec section, and an FAQ (`section.faq` with `<details>`).
+- Byline under the H1: `p.byline` with the author avatar, linking to the About page, plus the update date.
+- Every page has favicon, Open Graph/Twitter tags (image `/og-image.png`) and JSON-LD (Organization; guides also Article + BreadcrumbList + FAQPage when there is an FAQ). Keep FAQ JSON-LD identical to the visible FAQ.
+- Titles target what people search: "<Tool> avis 2026", "<Tool> au Québec", "X vs Y". Keep them under ~65 characters where possible.
+- Only claim hands-on experience for what we actually did (Systeme.io account, form, automation, domain). We do NOT run a Shopify store; Shopify pages say so.
+- New Shopify subId placements: taxes-top, taxes-end; YouTube descriptions use youtube-<slug>.
+- Builder used for the v2 pages: tools kept outside the repo; edit the HTML directly following the existing pages.

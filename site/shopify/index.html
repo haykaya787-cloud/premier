@@ -3,12 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shopify : la boutique en ligne née au Canada | Premier Client</title>
-<meta name="description" content="Fondée à Ottawa, Shopify est la plateforme la plus connue pour ouvrir une boutique en ligne sans programmer.">
+<title>Shopify au Québec : avis et guide 2026 (français, TPS/TVQ, Loi 25)</title>
+<meta name="description" content="Shopify au Québec en 2026 : à qui il convient, les réglages d&#x27;ici (français, TPS/TVQ, Loi 25), ses limites et par où commencer. Guide avec sources officielles.">
 <link rel="canonical" href="https://www.premierclient.ca/shopify/">
 <link rel="alternate" hreflang="fr-CA" href="https://www.premierclient.ca/shopify/">
 <link rel="alternate" hreflang="en-CA" href="https://www.premierclient.ca/en/shopify/">
 <link rel="alternate" hreflang="x-default" href="https://www.premierclient.ca/shopify/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0b6e4f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Premier Client">
+<meta property="og:locale" content="fr_CA">
+<meta property="og:title" content="Shopify au Québec : avis et guide 2026 (français, TPS/TVQ, Loi 25)">
+<meta property="og:description" content="Shopify au Québec en 2026 : à qui il convient, les réglages d&#x27;ici (français, TPS/TVQ, Loi 25), ses limites et par où commencer. Guide avec sources officielles.">
+<meta property="og:url" content="https://www.premierclient.ca/shopify/">
+<meta property="og:image" content="https://www.premierclient.ca/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="impact-site-verification" value="fa80025d-9a69-4270-9239-7dcd54d74bed">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -102,7 +113,43 @@ footer a{color:var(--muted)}
 .signup{background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--mark);border-radius:8px;padding:18px 20px;margin:28px 0}
 .signup h2{margin:0 0 6px;font-size:1.25rem}.signup p{margin:0 0 10px}
 .su-form{min-height:120px}.su-fine{font-size:.85rem;color:var(--muted)}
+
+/* v2: brand hero, review components, footer */
+.hero{background:linear-gradient(135deg,#0d7a58,#0a5340);color:#fff;border-radius:18px;padding:30px 30px 26px;display:grid;grid-template-columns:1fr 190px;gap:10px 26px;align-items:center;margin:0 0 6px;box-shadow:0 14px 34px rgba(11,94,68,.22)}
+.hero h1{color:#fff;margin:0 0 10px}.hero .lede{color:#d9ece4;margin:0 0 16px}
+.hero .mascot svg{width:100%;height:auto;display:block;filter:drop-shadow(0 10px 18px rgba(0,0,0,.25))}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.chips li{margin:0;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:4px 12px;font-size:.85rem;font-weight:600}
+.chips li::before{content:"✓ ";color:#f2b632}
+@media (max-width:640px){.hero{grid-template-columns:1fr;padding:24px 20px}.hero .mascot{width:120px;order:-1}}
+.choice .ico{width:42px;height:42px;border-radius:10px;background:#e3f1ea;display:grid;place-items:center;font-size:1.4rem;margin-bottom:2px}
+.choice{transition:transform .15s, box-shadow .15s}.choice:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(20,35,31,.08)}
+.new{display:inline-block;background:var(--mark);color:#14231f;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:middle}
+.byline{display:flex;align-items:center;gap:10px;font-size:.9rem;color:var(--muted);margin:-4px 0 14px}
+.byline img{width:34px;height:34px;border-radius:50%}
+.verdict{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:10px;padding:16px 20px;margin:22px 0}
+.verdict p{margin:0}.verdict .vk{font-size:.78rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.toc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 20px;margin:18px 0 6px}
+.toc p{margin:0 0 4px;font-weight:700;font-family:var(--display)}.toc ol{margin:0;columns:2;column-gap:28px}.toc li{margin:0 0 4px;break-inside:avoid}
+@media (max-width:640px){.toc ol{columns:1}}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:10px 0 6px}
+@media (max-width:640px){.pc{grid-template-columns:1fr}}
+.pc>div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 18px}
+.pc .pro{border-top:4px solid var(--accent)}.pc .con{border-top:4px solid #c2564b}
+.pc ul{list-style:none;padding:0;margin:0}.pc li{padding-left:1.5em;position:relative}
+.pc .pro li::before{content:"+";position:absolute;left:0;font-weight:700;color:var(--accent)}
+.pc .con li::before{content:"–";position:absolute;left:0;font-weight:700;color:#c2564b}
+.pch{font-family:var(--display);font-weight:700;margin:0 0 6px}
+table.facts{border-collapse:collapse;width:100%;max-width:520px;margin:8px 0 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+table.facts th,table.facts td{text-align:left;padding:9px 14px;border-bottom:1px solid var(--line);font-size:.97rem}
+table.facts th{font-weight:600;color:var(--muted);width:60%}table.facts td{font-weight:700}
+.note{background:#fff7e0;border-radius:8px;padding:12px 16px;color:#14231f}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:0 0 10px}
+.faq summary{cursor:pointer;font-weight:700;font-family:var(--display)}.faq details p{margin:8px 0 0}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+footer nav{gap:6px 16px}footer nav a{color:var(--muted)}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://www.premierclient.ca/#org", "name": "Premier Client", "url": "https://www.premierclient.ca/", "logo": "https://www.premierclient.ca/apple-touch-icon.png", "email": "bonjour@premierclient.ca", "sameAs": ["https://www.youtube.com/@premierclientca"], "address": {"@type": "PostalAddress", "addressLocality": "Laval", "addressRegion": "QC", "addressCountry": "CA"}}, {"@type": "Article", "headline": "Shopify au Québec : avis et guide 2026", "description": "Shopify au Québec en 2026 : à qui il convient, les réglages d'ici (français, TPS/TVQ, Loi 25), ses limites et par où commencer. Guide avec sources officielles.", "inLanguage": "fr-CA", "author": {"@type": "Person", "name": "Meissa", "url": "https://www.premierclient.ca/a-propos/"}, "publisher": {"@id": "https://www.premierclient.ca/#org"}, "dateModified": "2026-11-20", "mainEntityOfPage": "https://www.premierclient.ca/shopify/", "image": "https://www.premierclient.ca/og-image.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Premier Client", "item": "https://www.premierclient.ca/"}, {"@type": "ListItem", "position": 2, "name": "Shopify au Québec : avis et guide 2026", "item": "https://www.premierclient.ca/shopify/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Shopify est-il disponible en français ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui : l'administration et la boutique peuvent être en français. Au Québec, faites du français la langue par défaut de votre boutique."}}, {"@type": "Question", "name": "Shopify calcule-t-il la TVQ ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui, une fois que vous êtes inscrit et que vous avez entré vos numéros dans Paramètres › Taxes et frais de douane. Shopify calcule ; vous restez responsable de vos déclarations."}}, {"@type": "Question", "name": "Shopify a-t-il un forfait gratuit ?", "acceptedAnswer": {"@type": "Answer", "text": "Non, Shopify offre un essai, puis un abonnement payant. Les conditions de l'essai changent : vérifiez-les sur la page de Shopify."}}, {"@type": "Question", "name": "Shopify ou Systeme.io ?", "acceptedAnswer": {"@type": "Answer", "text": "Shopify pour des produits physiques à expédier ; Systeme.io pour un service, du coaching ou une formation."}}]}]}</script>
 </head>
 <body>
 <header class="mast"><div class="wrap">
@@ -118,21 +165,37 @@ footer a{color:var(--muted)}
 <main><div class="wrap">
 <section class="view">
 <a class="back" href="/">← Tous les guides</a>
+<h1>Shopify au Québec : avis et guide 2026</h1>
+<p class="byline"><img src="/meissa-avatar.svg" alt="" width="34" height="34"><span><a href="/a-propos/">Par Meissa</a>, Premier Client · Laval (Québec) · Mis à jour le 20 novembre 2026</span></p>
+<p class="lede">La plateforme de boutique en ligne née à Ottawa, vue sous l'angle d'un commerce québécois : ce qu'elle fait bien, ce qu'elle coûte en applications, et les trois réglages à ne pas oublier ici.</p>
+<div class="cta-row"><a class="cta" href="https://shopify.pxf.io/k4d03x?subId1=guide-top&amp;subId2=fr" rel="sponsored noopener">Essayer Shopify</a><span class="cta-note">Essai gratuit ; conditions sur la page Shopify.</span></div>
 
-<h1>Shopify : la boutique en ligne née au Canada</h1>
-<p class="updated">Mis à jour le 17 novembre 2026</p>
-<p class="lede">Fondée à Ottawa, Shopify est la plateforme la plus connue pour ouvrir une boutique en ligne sans programmer.</p>
-<div class="cta-row"><a class="cta" href="https://shopify.pxf.io/k4d03x?subId1=guide-top&amp;subId2=fr" rel="sponsored noopener">Essayer Shopify gratuitement</a><span class="cta-note">Essai gratuit pour monter la boutique avant de payer.</span></div>
-<h2>Ce que l'outil fait</h2>
-<ul><li><strong>Boutique :</strong> catalogue, variantes, inventaire, thèmes.</li><li><strong>Paiements :</strong> cartes et paiement intégré.</li><li><strong>Expédition et taxes :</strong> tarifs calculés et réglages par province.</li><li><strong>Vente en personne :</strong> terminal de point de vente relié à la boutique.</li><li><strong>Applications :</strong> une boutique d'extensions pour presque tout.</li></ul>
-<h2>À qui il convient</h2>
-<p>Aux artisans, aux détaillants et aux marques qui vendent des objets. Si vous avez plus qu'une poignée de produits, une vraie boutique vous fera gagner du temps dès le premier mois.</p>
-<h2>À qui il convient moins</h2>
-<p>Aux personnes qui vendent seulement un service ou une formation. Un forfait mensuel et des applications payantes pèsent lourd quand on n'a qu'une offre : voyez <a href="/systeme-io/">Systeme.io</a>.</p>
-<h2>Par où commencer</h2>
-<ol><li>Profitez de l'essai pour monter la boutique avant de payer.</li><li>Mettez en ligne cinq produits avec de bonnes photos.</li><li>Réglez les taxes et la livraison pour le Québec.</li><li>Faites une commande test avant d'annoncer l'ouverture.</li></ol>
-<a class="cta" href="https://shopify.pxf.io/k4d03x?subId1=guide-end&amp;subId2=fr" rel="sponsored noopener">Essayer Shopify gratuitement</a>
+<div class="verdict"><p class="vk">Notre verdict</p><p><strong>Le choix le plus sûr si vous vendez des produits à expédier.</strong> Inventaire, paiements, expédition et taxes canadiennes sont intégrés. Si vous vendez plutôt un service ou une formation, <a href="/systeme-io/">Systeme.io</a> coûte moins cher pour démarrer.</p></div>
+<p class="note">Transparence : nous n'exploitons pas de boutique Shopify. Ce guide s'appuie sur la documentation officielle de Shopify et des organismes québécois, liée à chaque section.</p>
+<nav class="toc" aria-label="Sommaire"><p>Sommaire</p><ol><li><a href="#fait">Ce que Shopify fait</a></li><li><a href="#pour-contre">Points forts et limites</a></li><li><a href="#quebec">Les 3 réglages du Québec</a></li><li><a href="#qui">Pour qui ?</a></li><li><a href="#debut">Par où commencer</a></li><li><a href="#faq">Questions fréquentes</a></li></ol></nav>
+<h2 id="fait">Ce que Shopify fait</h2>
+<ul><li><strong>Boutique en ligne :</strong> thèmes, pages produits, panier et paiement hébergés.</li>
+<li><strong>Gestion :</strong> inventaire, variantes (tailles, couleurs), commandes et clients.</li>
+<li><strong>Expédition :</strong> zones et tarifs de livraison, ramassage en magasin.</li>
+<li><strong>Taxes canadiennes :</strong> Shopify calcule la TPS, la TVH, la TVQ et la TVP une fois vos numéros d'inscription entrés (<a href="https://help.shopify.com/fr/manual/taxes/canada/canada-tax-setup" rel="noopener">aide Shopify</a>).</li>
+<li><strong>Applications :</strong> une boutique d'applications pour ajouter avis clients, abonnements, infolettres, etc.</li></ul>
+<h2 id="pour-contre">Points forts et limites</h2>
+<div class="pc"><div class="pro"><p class="pch">Points forts</p><ul><li>Pensé pour la vente de produits, de A à Z</li><li>Taxes canadiennes gérées dans les paramètres</li><li>Administration et boutique en français</li><li>Vente en ligne et en personne au même endroit</li><li>Entreprise canadienne, très répandue</li></ul></div>
+<div class="con"><p class="pch">Limites</p><ul><li>Pas de forfait gratuit permanent : un essai, puis un abonnement</li><li>Les applications payantes font grimper la facture</li><li>Plus d'étapes de départ qu'un simple outil de page de vente</li><li>Pour un service ou une formation, c'est souvent trop</li></ul></div></div>
+<h2 id="quebec">Les 3 réglages du Québec</h2>
+<h3>1. Le français en premier</h3>
+<p>Votre site commercial doit être offert en français ; une autre langue peut s'ajouter si le français est au moins équivalent (<a href="https://oqlf.gouv.qc.ca/francisation/entreprises/sites.html" rel="noopener">OQLF</a>). Dans Shopify, faites du français la langue par défaut de la boutique.</p>
+<h3>2. La TPS et la TVQ</h3>
+<p>Au-delà de 30 000 $ de ventes taxables, vous devez vous inscrire et percevoir ces taxes (<a href="https://www.revenuquebec.ca/fr/entreprises/taxes/tpstvh-et-tvq/inscription-aux-fichiers-de-la-tps-et-de-la-tvq/petit-fournisseur/" rel="noopener">Revenu Québec</a>). Shopify ne fait pas l'inscription à votre place. Tout est expliqué pas à pas dans <a href="/taxes-shopify-quebec/">notre guide TPS/TVQ dans Shopify</a>.</p>
+<h3>3. La Loi 25</h3>
+<p>Votre boutique recueille des renseignements personnels : publiez une politique de confidentialité claire et le titre et les coordonnées de la personne responsable (<a href="https://www.cai.gouv.qc.ca/protection-renseignements-personnels/sujets-et-domaines-dinteret/principaux-changements-loi-25" rel="noopener">Commission d'accès à l'information</a>).</p>
+<h2 id="qui">Pour qui ?</h2>
+<p><strong>Oui :</strong> artisans, boutiques de vêtements, produits alimentaires emballés, commerces qui vendent aussi en personne. <strong>Plutôt non :</strong> coachs, formateurs et consultants, mieux servis par <a href="/systeme-io/">Systeme.io</a>. Le détail est dans <a href="/comparatif/">notre comparatif</a>.</p>
+<h2 id="debut">Par où commencer</h2>
+<ol><li>Démarrez l'essai et mettez le français comme langue par défaut.</li><li>Ajoutez trois produits avec photos, prix et poids.</li><li>Réglez l'expédition (Québec, reste du Canada).</li><li>Activez les paiements et, si vous êtes inscrit, la TPS et la TVQ.</li><li>Publiez votre politique de confidentialité, puis passez une commande test.</li></ol>
+<a class="cta" href="https://shopify.pxf.io/k4d03x?subId1=guide-end&amp;subId2=fr" rel="sponsored noopener">Essayer Shopify</a>
 
+<section class="faq" id="faq"><h2>Questions fréquentes</h2><details><summary>Shopify est-il disponible en français ?</summary><p>Oui : l'administration et la boutique peuvent être en français. Au Québec, faites du français la langue par défaut de votre boutique.</p></details><details><summary>Shopify calcule-t-il la TVQ ?</summary><p>Oui, une fois que vous êtes inscrit et que vous avez entré vos numéros dans Paramètres › Taxes et frais de douane. Shopify calcule ; vous restez responsable de vos déclarations.</p></details><details><summary>Shopify a-t-il un forfait gratuit ?</summary><p>Non, Shopify offre un essai, puis un abonnement payant. Les conditions de l'essai changent : vérifiez-les sur la page de Shopify.</p></details><details><summary>Shopify ou Systeme.io ?</summary><p>Shopify pour des produits physiques à expédier ; Systeme.io pour un service, du coaching ou une formation.</p></details></section>
 <aside class="signup" aria-labelledby="su-h">
 <h2 id="su-h">Vendre en ligne au Québec : ne ratez aucune étape</h2>
 <p>Recevez gratuitement notre liste de vérification en 5 points : immatriculation, TPS/TVQ, français, Loi 25 et courriels. Chaque point renvoie à une source officielle.</p>
@@ -141,6 +204,6 @@ footer a{color:var(--muted)}
 </aside>
 </section>
 </div></main>
-<footer><div class="wrap"><span>© 2026 Premier Client. Information générale seulement.</span><a class="foot-links" href="/confidentialite/">Confidentialité</a></div></footer>
+<footer><div class="wrap"><span>© 2026 Premier Client · Laval (Québec). Information générale seulement.</span><nav><a href="/">Guides</a><a href="/taxes-shopify-quebec/">TPS/TVQ</a><a href="https://www.youtube.com/@premierclientca" rel="noopener">YouTube</a><a href="mailto:bonjour@premierclient.ca">Contact</a><a class="foot-links" href="/confidentialite/">Confidentialité</a></nav></div></footer>
 </body>
 </html>

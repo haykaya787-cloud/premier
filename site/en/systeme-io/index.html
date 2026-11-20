@@ -3,12 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Systeme.io: who it suits and what it does | Premier Client</title>
-<meta name="description" content="An all-in-one tool, built in France, that bundles what you need to sell a service or a course online.">
+<title>Systeme.io review 2026: our hands-on setup from Quebec (free plan, limits)</title>
+<meta name="description" content="Systeme.io review 2026: what we built on the free plan (form, automated email, domain), its real limits, and who it suits in Quebec and Canada.">
 <link rel="canonical" href="https://www.premierclient.ca/en/systeme-io/">
 <link rel="alternate" hreflang="fr-CA" href="https://www.premierclient.ca/systeme-io/">
 <link rel="alternate" hreflang="en-CA" href="https://www.premierclient.ca/en/systeme-io/">
 <link rel="alternate" hreflang="x-default" href="https://www.premierclient.ca/systeme-io/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#0b6e4f">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Premier Client">
+<meta property="og:locale" content="en_CA">
+<meta property="og:title" content="Systeme.io review 2026: our hands-on setup from Quebec (free plan, limits)">
+<meta property="og:description" content="Systeme.io review 2026: what we built on the free plan (form, automated email, domain), its real limits, and who it suits in Quebec and Canada.">
+<meta property="og:url" content="https://www.premierclient.ca/en/systeme-io/">
+<meta property="og:image" content="https://www.premierclient.ca/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="impact-site-verification" value="fa80025d-9a69-4270-9239-7dcd54d74bed">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
@@ -99,7 +110,43 @@ section.view{display:block}a.lang{text-decoration:none}
 .author strong{font-family:var(--display);font-size:1.15rem}
 footer .wrap{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
 footer a{color:var(--muted)}
+
+/* v2: brand hero, review components, footer */
+.hero{background:linear-gradient(135deg,#0d7a58,#0a5340);color:#fff;border-radius:18px;padding:30px 30px 26px;display:grid;grid-template-columns:1fr 190px;gap:10px 26px;align-items:center;margin:0 0 6px;box-shadow:0 14px 34px rgba(11,94,68,.22)}
+.hero h1{color:#fff;margin:0 0 10px}.hero .lede{color:#d9ece4;margin:0 0 16px}
+.hero .mascot svg{width:100%;height:auto;display:block;filter:drop-shadow(0 10px 18px rgba(0,0,0,.25))}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none}
+.chips li{margin:0;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:4px 12px;font-size:.85rem;font-weight:600}
+.chips li::before{content:"✓ ";color:#f2b632}
+@media (max-width:640px){.hero{grid-template-columns:1fr;padding:24px 20px}.hero .mascot{width:120px;order:-1}}
+.choice .ico{width:42px;height:42px;border-radius:10px;background:#e3f1ea;display:grid;place-items:center;font-size:1.4rem;margin-bottom:2px}
+.choice{transition:transform .15s, box-shadow .15s}.choice:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(20,35,31,.08)}
+.new{display:inline-block;background:var(--mark);color:#14231f;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;border-radius:4px;padding:1px 6px;margin-left:6px;vertical-align:middle}
+.byline{display:flex;align-items:center;gap:10px;font-size:.9rem;color:var(--muted);margin:-4px 0 14px}
+.byline img{width:34px;height:34px;border-radius:50%}
+.verdict{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--accent);border-radius:10px;padding:16px 20px;margin:22px 0}
+.verdict p{margin:0}.verdict .vk{font-size:.78rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.toc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 20px;margin:18px 0 6px}
+.toc p{margin:0 0 4px;font-weight:700;font-family:var(--display)}.toc ol{margin:0;columns:2;column-gap:28px}.toc li{margin:0 0 4px;break-inside:avoid}
+@media (max-width:640px){.toc ol{columns:1}}
+.pc{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:10px 0 6px}
+@media (max-width:640px){.pc{grid-template-columns:1fr}}
+.pc>div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 18px}
+.pc .pro{border-top:4px solid var(--accent)}.pc .con{border-top:4px solid #c2564b}
+.pc ul{list-style:none;padding:0;margin:0}.pc li{padding-left:1.5em;position:relative}
+.pc .pro li::before{content:"+";position:absolute;left:0;font-weight:700;color:var(--accent)}
+.pc .con li::before{content:"–";position:absolute;left:0;font-weight:700;color:#c2564b}
+.pch{font-family:var(--display);font-weight:700;margin:0 0 6px}
+table.facts{border-collapse:collapse;width:100%;max-width:520px;margin:8px 0 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+table.facts th,table.facts td{text-align:left;padding:9px 14px;border-bottom:1px solid var(--line);font-size:.97rem}
+table.facts th{font-weight:600;color:var(--muted);width:60%}table.facts td{font-weight:700}
+.note{background:#fff7e0;border-radius:8px;padding:12px 16px;color:#14231f}
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:0 0 10px}
+.faq summary{cursor:pointer;font-weight:700;font-family:var(--display)}.faq details p{margin:8px 0 0}
+footer .wrap{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between}
+footer nav{gap:6px 16px}footer nav a{color:var(--muted)}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://www.premierclient.ca/#org", "name": "Premier Client", "url": "https://www.premierclient.ca/", "logo": "https://www.premierclient.ca/apple-touch-icon.png", "email": "bonjour@premierclient.ca", "sameAs": ["https://www.youtube.com/@premierclientca"], "address": {"@type": "PostalAddress", "addressLocality": "Laval", "addressRegion": "QC", "addressCountry": "CA"}}, {"@type": "Article", "headline": "Systeme.io review 2026: our hands-on setup, from Quebec", "description": "Systeme.io review 2026: what we built on the free plan (form, automated email, domain), its real limits, and who it suits in Quebec and Canada.", "inLanguage": "en-CA", "author": {"@type": "Person", "name": "Meissa", "url": "https://www.premierclient.ca/en/about/"}, "publisher": {"@id": "https://www.premierclient.ca/#org"}, "dateModified": "2026-11-20", "mainEntityOfPage": "https://www.premierclient.ca/en/systeme-io/", "image": "https://www.premierclient.ca/og-image.png"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Premier Client", "item": "https://www.premierclient.ca/en/"}, {"@type": "ListItem", "position": 2, "name": "Systeme.io review 2026: our hands-on setup, from Quebec", "item": "https://www.premierclient.ca/en/systeme-io/"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is Systeme.io really free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The free plan needs no credit card and includes 2,000 contacts, 3 sales funnels and unlimited emails, according to the official pricing page checked on November 20, 2026."}}, {"@type": "Question", "name": "Can I use Systeme.io in Quebec?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, but you set up the local rules yourself: email consent, a postal address in every email, a Law 25 privacy policy and, above the small-supplier threshold, GST and QST."}}, {"@type": "Question", "name": "Systeme.io or Shopify?", "acceptedAnswer": {"@type": "Answer", "text": "Systeme.io to sell a service, coaching or a course. Shopify for a store of physical products with inventory and shipping."}}]}]}</script>
 </head>
 <body>
 <header class="mast"><div class="wrap">
@@ -115,23 +162,42 @@ footer a{color:var(--muted)}
 <main><div class="wrap">
 <section class="view">
 <a class="back" href="/en/">← All guides</a>
-
-<h1>Systeme.io: who it suits and what it does</h1>
-<p class="updated">Updated November 17, 2026</p>
-<p class="lede">An all-in-one tool, built in France, that bundles what you need to sell a service or a course online.</p>
+<h1>Systeme.io review 2026: our hands-on setup, from Quebec</h1>
+<p class="byline"><img src="/meissa-avatar.svg" alt="" width="34" height="34"><span><a href="/en/about/">By Meissa</a>, Premier Client · Laval, Quebec · Updated November 20, 2026</span></p>
+<p class="lede">We run this site's email list on Systeme.io. Here is what the free plan really does, where it falls short, and who we recommend it to.</p>
 <div class="cta-row"><a class="cta" href="https://systeme.io/?sa=sa02865662993b51891b959daf857a33a6a54575a3" rel="sponsored noopener">Create a free Systeme.io account</a><span class="cta-note">Free plan, no credit card required.</span></div>
-<h2>What it does</h2>
-<ul><li><strong>Sales funnels:</strong> opt-in page, sales page, checkout, thank-you page.</li><li><strong>Email:</strong> newsletters and automated sequences.</li><li><strong>Courses:</strong> course hosting and a members area.</li><li><strong>Site and blog:</strong> simple pages with no separate web host.</li></ul>
-<h2>Who it suits</h2>
-<p>People starting alone who want to test an offer quickly: consultants, coaches, trainers, authors. The free plan lets you build a first funnel before paying anything.</p>
-<h2>Who it suits less</h2>
-<p>Shops with many physical products, and teams that want fine control over design. In those cases, look at <a href="/en/shopify/">Shopify</a>.</p>
-<h2>Where to start</h2>
-<ol><li>Open a free account.</li><li>Build one opt-in page with a single clear promise.</li><li>Write three welcome emails.</li><li>Add a paid offer once you have your first subscribers.</li></ol>
+
+<div class="verdict"><p class="vk">Our verdict</p><p><strong>The best free starting point if you sell a service, coaching or a course.</strong> Opt-in page, email and checkout in one tool, no credit card. For a real product store, choose <a href="/en/shopify/">Shopify</a> instead.</p></div>
+<nav class="toc" aria-label="Contents"><p>Contents</p><ol><li><a href="#setup">What we built</a></li><li><a href="#free">The free plan in numbers</a></li><li><a href="#proscons">Pros and limits</a></li><li><a href="#users">What users say</a></li><li><a href="#quebec">In Quebec: what to set up</a></li><li><a href="#who">Who is it for?</a></li><li><a href="#faq">FAQ</a></li></ol></nav>
+<h2 id="setup">What we built on the free plan</h2>
+<ol>
+<li><strong>Account.</strong> Free sign-up, no credit card.</li>
+<li><strong>Domain.</strong> We authenticated premierclient.ca (Settings › Emails › Domains). Systeme.io gives the DNS records; on Cloudflare it took about ten minutes.</li>
+<li><strong>Form.</strong> First name, email, an <em>unticked</em> consent box and a button, embedded on this site with one line of code.</li>
+<li><strong>Welcome email.</strong> One automation rule: form sign-up → send email. The postal address and unsubscribe link live in the email footer settings.</li>
+<li><strong>Test.</strong> Two test sign-ups: contacts arrive with their source page and form.</li>
+</ol>
+<p class="note"><strong>What surprised us:</strong> on a new account, our first automated email had not gone out after about ten minutes. Systeme.io reviews new accounts' first sends, which can take from minutes to a few hours (<a href="https://help.systeme.io/article/227-my-emails-are-not-being-sent" rel="noopener">Systeme.io help</a>). Plan for it before a launch.</p>
+<h2 id="free">The free plan in numbers</h2>
+<p>From the <a href="https://systeme.io/pricing" rel="noopener">official pricing page</a> (checked November 20, 2026):</p>
+<table class="facts"><tbody>
+<tr><th>Contacts</th><td>2,000</td></tr><tr><th>Emails sent</th><td>Unlimited</td></tr><tr><th>Sales funnels</th><td>3 (15 steps)</td></tr>
+<tr><th>Automation rules</th><td>1</td></tr><tr><th>Email campaigns (sequences)</th><td>1</td></tr><tr><th>Courses</th><td>1 (500 students)</td></tr>
+<tr><th>Custom domain</th><td>1</td></tr><tr><th>Transaction fees</th><td>0%</td></tr><tr><th>Credit card</th><td>Not required</td></tr></tbody></table>
+<h2 id="proscons">Pros and limits</h2>
+<div class="pc"><div class="pro"><p class="pch">Pros</p><ul><li>A real free plan, no credit card</li><li>Pages, email, checkout and courses in one place</li><li>Unlimited emails, even on the free plan</li><li>No transaction fees added by Systeme.io</li><li>French and English interface</li></ul></div>
+<div class="con"><p class="pch">Limits</p><ul><li>Only one automation rule on the free plan</li><li>Free plan shows a "Made with systeme.io" badge on forms</li><li>Few native integrations; Zapier is sometimes needed</li><li>Less design freedom than a site builder</li><li>Quebec rules are yours to set up</li></ul></div></div>
+<h2 id="users">What users say</h2>
+<p>On Capterra Canada, Systeme.io is rated <strong>4.8 out of 5</strong> across more than 2,100 reviews (<a href="https://fr.capterra.ca/reviews/198994/systeme" rel="noopener">see reviews</a>, November 2026). Praise centres on simplicity and value; criticism on integrations and design freedom.</p>
+<h2 id="quebec">In Quebec: what to set up yourself</h2>
+<ul><li><strong>Consent:</strong> Canada's anti-spam law requires clear consent; the box must be unticked by default.</li><li><strong>Postal address:</strong> every commercial email must say who you are and how to reach you.</li><li><strong>Law 25:</strong> publish a privacy policy and the name of the person in charge.</li><li><strong>Taxes:</strong> above the small-supplier threshold you must collect GST and QST. See <a href="/en/shopify-gst-qst/">our GST/QST guide</a>.</li></ul>
+<h2 id="who">Who is it for?</h2>
+<p><strong>Yes:</strong> consultants, coaches, trainers, freelancers and authors testing an offer on a near-zero budget. <strong>Less so:</strong> stores with many physical products, who are better served by <a href="/en/shopify/">Shopify</a>. Unsure? Read <a href="/en/compare/">our comparison</a>.</p>
 <a class="cta" href="https://systeme.io/?sa=sa02865662993b51891b959daf857a33a6a54575a3" rel="sponsored noopener">Create a free Systeme.io account</a>
 
+<section class="faq" id="faq"><h2>FAQ</h2><details><summary>Is Systeme.io really free?</summary><p>Yes. The free plan needs no credit card and includes 2,000 contacts, 3 sales funnels and unlimited emails, according to the official pricing page checked on November 20, 2026.</p></details><details><summary>Can I use Systeme.io in Quebec?</summary><p>Yes, but you set up the local rules yourself: email consent, a postal address in every email, a Law 25 privacy policy and, above the small-supplier threshold, GST and QST.</p></details><details><summary>Systeme.io or Shopify?</summary><p>Systeme.io to sell a service, coaching or a course. Shopify for a store of physical products with inventory and shipping.</p></details></section>
 </section>
 </div></main>
-<footer><div class="wrap"><span>© 2026 Premier Client. General information only.</span><a class="foot-links" href="/en/privacy/">Privacy</a></div></footer>
+<footer><div class="wrap"><span>© 2026 Premier Client · Laval, Quebec. General information only.</span><nav><a href="/en/">Guides</a><a href="/en/shopify-gst-qst/">GST/QST</a><a href="https://www.youtube.com/@premierclientca" rel="noopener">YouTube</a><a href="mailto:bonjour@premierclient.ca">Contact</a><a class="foot-links" href="/en/privacy/">Privacy</a></nav></div></footer>
 </body>
 </html>
