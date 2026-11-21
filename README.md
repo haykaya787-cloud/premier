@@ -45,3 +45,7 @@ Static bilingual (French / English) affiliate site served at https://www.premier
 - Pages: /demarrer-entreprise-quebec/, /inscription-tps-tvq-quebec/ and EN twins, defined in tools/pro/pages_start.py.
 - Videos: IbpSrc9yuU4 (autonome ou société), Bcrxxq2Z2FY (ARC + TPS/TVQ), 2-hiargWqsw (incorporation Québec vs fédéral; pages /incorporer-entreprise-quebec/ and /en/incorporate-in-quebec/, list INC). Pages take a `video=` dict; build_site.py embeds via youtube-nocookie and adds VideoObject.
 - Paid-registration affiliate (e.g. Ownr) pending the owner's approval: add the link to the "Ou payer un service" section and to both video descriptions.
+
+## Video series « Démarrer au Québec » (Léa, fictional example) — Nov 21 2026
+- Ep1 IMzdiRwDDRg, Ep2 UsAV__SPIQQ, Ep3 aOnhkUOaqHA, Ep4 KiUPRsnjato (public). Earlier versions IbpSrc9yuU4, Bcrxxq2Z2FY, 2-hiargWqsw, gJutB3Nl4r4 set to Unlisted (not deleted).
+- Animated renderer: /home/claude/vid/build2.py (per-frame Chrome render, reveals synced to narration, count-ups, speech bubbles, confetti, soft SFX). Scripts: /home/claude/vid/story/ep1-4.py. Upload encode: enc.sh (fits the 3.8 MB browser upload limit).
